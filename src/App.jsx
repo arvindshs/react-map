@@ -1,12 +1,12 @@
 // src/App.js
 import React from 'react';
-import MapWithSearch from './MapWithSearch';
+import WasteScrapShopMap from './WasteScrapShopMap';
 
 function App() {
   return (
     <div className="App">
-      <h1 style={{ textAlign: 'center' }}>Search for Locations on the Map</h1>
-      <MapWithSearch />
+      <h1 style={{ textAlign: 'center' }}>Waste Scrap Shop Location</h1>
+      <WasteScrapShopMap />
     </div>
   );
 }
